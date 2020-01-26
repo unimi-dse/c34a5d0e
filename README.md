@@ -1,6 +1,6 @@
 #### c34a5d0e
 ## Grade Calculator
-### Giorgia Mazzi
+
 
 
 The aim of this project is to produce a weighted average calculator that calculates the average of all courses and the final degree classification or assessment average. The study is focused on the example of few students from DSE, Data Science and Economics, Unimi. Every university works out degree classifications differently. For this reason, it has been designed as a tool through which you can quickly calculate weighted averages without having to know too much about marking policies. At the end, this project tries to analyze statistically the trend of the sample.
