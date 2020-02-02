@@ -2,7 +2,7 @@
 % Please edit documentation in R/weightedaverageGUI.R
 \name{weightedaverageGUI}
 \alias{weightedaverageGUI}
-\title{Weighted Average}
+\title{Weighted Average GUI}
 \usage{
 weightedaverageGUI()
 }

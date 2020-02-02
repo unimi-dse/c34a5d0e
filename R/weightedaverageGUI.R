@@ -1,4 +1,4 @@
-#' Weighted Average
+#' Weighted Average GUI
 #'
 #' This function reads the data into the dataframe and give us the trend of the final grades
 #' @return the trend of the final degree classification
