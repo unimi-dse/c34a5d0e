@@ -4,7 +4,7 @@
 \alias{weightedaverage}
 \title{Weighted Average}
 \usage{
-weightedaverage(DfDSE, Students)
+weightedaverage(Students)
 }
 \arguments{
 \item{Students}{it's the list of students which you want to calculate the final degree classification}
