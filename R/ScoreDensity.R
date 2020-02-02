@@ -5,7 +5,7 @@
 #' @export
 #'
 ScoreDensity <- function(){
-DfDSE <- read.csv("https://raw.githubusercontent.com/unimi-dse/c34a5d0e/master/gradecalculator/FileDse.csv")
+DfDSE <- read.csv("https://raw.githubusercontent.com/unimi-dse/c34a5d0e/master/FileDse.csv")
 
 tabella <- table(DfDSE$Score)
 

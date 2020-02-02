@@ -6,7 +6,7 @@
 #' @export
 #'
 weightedaverage<- function (DfDSE, Students){
-  DfDSE <- read.csv("https://raw.githubusercontent.com/unimi-dse/c34a5d0e/master/gradecalculator/FileDse.csv")
+  DfDSE <- read.csv("https://raw.githubusercontent.com/unimi-dse/c34a5d0e/master/FileDse.csv")
   result<- vector()
 
   Cfus<-unique(DfDSE$Student)

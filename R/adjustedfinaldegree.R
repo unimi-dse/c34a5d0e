@@ -6,7 +6,7 @@
 #' @export
 #'
 adjustedfinaldegree <- function (score){
-DfDSE <- read.csv("https://raw.githubusercontent.com/unimi-dse/c34a5d0e/master/gradecalculator/FileDse.csv")
+DfDSE <- read.csv("https://raw.githubusercontent.com/unimi-dse/c34a5d0e/master/FileDse.csv")
 
 if(score < 18 | score >33)
   print("Insert a value between 18 and 33")
