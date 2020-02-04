@@ -56,6 +56,6 @@ The function TermFrequency() draws the frequency of exams taken in each term or 
 
 The function StudentsDistruibution() represents through a map the density of students that attend DSE by their nationalities. Type ?StudentsDistribution.
 
-- GradeCalculator #itdoesn'tworknow
+- GradeCalculator 
 
 The function GradeCalculator() runs a Graphical User Interface to understand the final degree classification obtained just writing the name used in the csv file.
