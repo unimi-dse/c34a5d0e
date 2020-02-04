@@ -7,7 +7,7 @@
 #' @importFrom plotly plot_ly
 #'
 weightedaverageGUI<- function (){
-  DfDSE <- read.csv(system.file("extdata", package = "gradecalculator"))
+  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "gradecalculator"))
   Students<-unique(DfDSE$Student)
   p <- plot_ly(
     x = Students,
@@ -15,7 +15,7 @@ weightedaverageGUI<- function (){
     name = "finaldegreeclassification",
     type = "bar"
   )
-  
+
   return(p)
 }
 

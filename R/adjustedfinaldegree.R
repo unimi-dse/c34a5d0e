@@ -7,26 +7,26 @@
 #' @importFrom utils read.csv
 #'
 adjustedfinaldegree <- function (score){
-  DfDSE <- read.csv(system.file("extdata", package = "gradecalculator"))
-  
+  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "gradecalculator"))
+
   if(score < 18 | score >33)
     print("Insert a value between 18 and 33")
-  
+
   else{
     i <- is.na(DfDSE$Score)
     DfDSE$Score[i] <- score
-    
+
     Students<-DfDSE$Students[i]
     Subjects<-DfDSE$Subject[i]
     CFUs<-DfDSE$Cfu[i]
     Scores <- DfDSE$Score[i]
     VotoLaurea<-weightedaverage(Students)
-    
+
     df <- data.frame('Stdents' = Students, 'Subjects' = Subjects, 'cfu' = CFUs, 'Score'= Scores, 'AdjFinalDegree' = VotoLaurea)
-    
-    
+
+
   }
-  
+
   return(df)
-  
+
 }
