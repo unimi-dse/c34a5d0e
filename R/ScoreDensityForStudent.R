@@ -3,13 +3,15 @@
 #' This function reads the data into the dataframe and calculates the mean, the variance, the min/max score for every student
 #' @return plot of the score density for every student
 #' @export
+#' @importFrom utils read.csv
 #'
 ScoreDensityForStudent <- function(){
-DfDSE <- read.csv("https://raw.githubusercontent.com/unimi-dse/c34a5d0e/master/FileDse.csv")
-Students<-unique(DfDSE$Student)
-
-p <- plot_ly(ggplot2::diamonds, y = ~DfDSE$Score, color = ~DfDSE$Student, type = "box")
-
-return(p)
-
+  
+  DfDSE <- read.csv(system.file("extdata", package = "gradecalculator"))
+  Students<-unique(DfDSE$Student)
+  
+  p <- plot_ly(ggplot2::diamonds, y = ~DfDSE$Score, color = ~DfDSE$Student, type = "box")
+  
+  return(p)
+  
 }

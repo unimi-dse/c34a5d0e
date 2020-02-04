@@ -3,16 +3,20 @@
 #' This function reads the data into the dataframe and give us the trend of the final grades
 #' @return the trend of the final degree classification
 #' @export
+#' @importFrom utils read.csv
+#' @importFrom plotly plot_ly
 #'
 weightedaverageGUI<- function (){
-  DfDSE <- read.csv("https://raw.githubusercontent.com/unimi-dse/c34a5d0e/master/FileDse.csv")
+  DfDSE <- read.csv(system.file("extdata", package = "gradecalculator"))
   Students<-unique(DfDSE$Student)
-p <- plot_ly(
-  x = Students,
-  y = weightedaverage(DfDSE, Students),
-  name = "SF Zoo",
-  type = "bar"
-)
-
-return(p)
+  p <- plot_ly(
+    x = Students,
+    y = weightedaverage(Students),
+    name = "finaldegreeclassification",
+    type = "bar"
+  )
+  
+  return(p)
 }
+
+load

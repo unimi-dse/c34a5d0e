@@ -4,11 +4,13 @@
 #' @param Students it's the list of students which you want to calculate the final degree classification
 #' @return final degree classification
 #' @export
+#' @importFrom utils read.csv
+#' @importFrom stats weighted.mean
 #'
 weightedaverage<- function (Students){
-  DfDSE <- read.csv("https://raw.githubusercontent.com/unimi-dse/c34a5d0e/master/FileDse.csv")
+  DfDSE <- read.csv(system.file("extdata", package = "gradecalculator"))
   result<- vector()
-
+  
   for(Student in Students){
     i <- DfDSE$Student == Student
     scores<-DfDSE$Score[i]
@@ -17,3 +19,4 @@ weightedaverage<- function (Students){
   }
   return(result)
 }
+
