@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580849472100.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "609745034",
+    "id" : "5DBEB9BC",
+    "lastKnownWriteTime" : 1580849507,
+    "last_content_update" : 1580849507444,
+    "path" : "C:/Users/jo181/OneDrive/Desktop/gradecalculator/R/ScoreDensity.R",
+    "project_path" : "R/ScoreDensity.R",
+    "properties" : {
+        "cursorPosition" : "21,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
