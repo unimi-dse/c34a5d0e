@@ -1,6 +1,5 @@
 #### c34a5d0e
-## Grade Calculator
-
+# Grade Calculator
 
 The aim of this project is to produce a weighted average calculator that calculates the average of all courses and gives in return the final degree classification. I designed this tool also to know how score is usefull to accept in an exam to have a certain final degree assignment.
 This project tries to analyze statistically with some plots a sample given by csv file and in the end it helps you with a Graphical User Interface to understand your final degree classification.
@@ -17,7 +16,6 @@ The info are collected in a csv file as the gender, nationality, age for each st
 ```
 
 ## Usage
-
 Load the package.
 ```
 require(gradecalculator)
@@ -29,11 +27,23 @@ require(gradecalculator)
 
 The function weightedaverage() calculates weighted average of all the courses and computes the final degree classification for all DSE students in csv file.
 Type ?weightedaverage for a complete description of the function.
+```
+#Example: 
+> weightedaverage('Giorgia')
+[1] 110
+
+```
 
 - adjustedfinaldegree 
 
 The function adjustedfinaldegree() takes a possible score to all the exams that you still need to do and calculates your "adjusted" final degree. Infact few DSE students have not complete their plan of study so they have to understand, through this tool, the impact on future grades on their final degree assignment.
 Type ?adjustedfinaldegree for a complete description of the function.
+```
+#Example: 
+> weightedaverage('Giorgia')
+[1] 110
+
+```
 
 - weightedaverageGUI
 
