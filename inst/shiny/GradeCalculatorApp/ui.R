@@ -8,7 +8,8 @@ ui <- fluidPage(
 
   sidebarLayout(
     sidebarPanel("REMARK: Use the name which is in the csv file.
-                 For example: use 'Giorgia'"),
+                 Type:
+                 'Giorgia', 'Anna', 'Corrado', 'Alejandra', 'Andrea', 'Gerolamo'"),
     mainPanel(
 
       div(
