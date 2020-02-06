@@ -19,11 +19,10 @@ The info are collected in a csv file as the gender, nationality, age for each st
 Load the package.
 ```
 require(gradecalculator)
-
 ```
 
 ## Functions:
-- weightedaverage
+- weightedaverage()
 
 The function weightedaverage() calculates weighted average of all the courses and computes the final degree classification for all DSE students in csv file.
 Type ?weightedaverage for a complete description of the function.
@@ -31,41 +30,46 @@ Type ?weightedaverage for a complete description of the function.
 #Example: 
 > weightedaverage('Giorgia')
 [1] 110
-
 ```
-
-- adjustedfinaldegree 
+- adjustedfinaldegree()
 
 The function adjustedfinaldegree() takes a possible score to all the exams that you still need to do and calculates your "adjusted" final degree. Infact few DSE students have not complete their plan of study so they have to understand, through this tool, the impact on future grades on their final degree assignment.
 Type ?adjustedfinaldegree for a complete description of the function.
+
 ```
 #Example: 
-> weightedaverage('Giorgia')
-[1] 110
-
+> adjustedfinaldegree(18)
+    Stdents   Subjects cfu Score AdjFinalDegree
+1 Alejandra     Coding  12    18       96.46154
+2 Alejandra       Opt2   6    18       96.46154
+3 Alejandra       Opt4   6    18       96.46154
+4 Alejandra       Opt5   6    18       96.46154
+5  Gerolamo Algorithms   6    18       90.93333
+6  Gerolamo       Opt3   6    18       90.93333
+7  Gerolamo       Opt5   6    18       90.93333
 ```
 
-- weightedaverageGUI
+- weightedaverageGUI()
 
 The function weightedaverageGUI() shows how is the trend of all final grade classifications for each DSE students in the file.
 Type ?weightedaverageGUI for a complete description of the function.
 
-- ScoreDensity
+- ScoreDensity()
 
 The function ScoreDensity() calculates how many times occur a certain score and draw a plot to show it. Type ?ScoreDensity. 
 
-- ScoreDensityForStudent
+- ScoreDensityForStudent()
 
 The function ScoreDensityForStudent() makes a statistical analysis for all DSE students (mean,variance,min,max) through a plot. Type ?ScoreDensityForStudent. 
 
-- TermFrequency
+- TermFrequency()
 
 The function TermFrequency() draws the frequency of exams taken in each term or session. Type ?TermFrequency
 
-- StudentsDistribution
+- StudentsDistribution()
 
 The function StudentsDistruibution() represents through a map the density of students that attend DSE by their nationalities. Type ?StudentsDistribution.
 
-- GradeCalculatorGUI
+- GradeCalculatorGUI()
 
 The function GradeCalculatorGUI() runs a Graphical User Interface to understand the final degree classification obtained just writing the name used in the csv file.
