@@ -12,7 +12,6 @@ The info are collected in a csv file as the gender, nationality, age for each st
 ```
 # first install the R package "devtools" 
 #devtools::install_github('unimi-dse/c34a5d0e')
-
 ```
 
 ## Usage
@@ -27,7 +26,7 @@ require(gradecalculator)
 The function weightedaverage() calculates weighted average of all the courses and computes the final degree classification for all DSE students in csv file.
 Type ?weightedaverage for a complete description of the function.
 ```
-#Example: 
+Example: 
 > weightedaverage('Giorgia')
 [1] 110
 ```
@@ -37,7 +36,7 @@ The function adjustedfinaldegree() takes a possible score to all the exams that 
 Type ?adjustedfinaldegree for a complete description of the function.
 
 ```
-#Example: 
+Example: 
 > adjustedfinaldegree(18)
     Stdents   Subjects cfu Score AdjFinalDegree
 1 Alejandra     Coding  12    18       96.46154
