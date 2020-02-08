@@ -4,7 +4,10 @@
 \alias{weightedaverageGUI}
 \title{Weighted Average GUI}
 \usage{
-weightedaverageGUI()
+weightedaverageGUI(Students)
+}
+\arguments{
+\item{Students}{it's the list of students which you want to calculate the final degree classification}
 }
 \value{
 the trend of the final degree classification

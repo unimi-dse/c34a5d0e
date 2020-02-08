@@ -27,8 +27,19 @@ The function weightedaverage() calculates weighted average of all the courses an
 Type ?weightedaverage for a complete description of the function.
 ```
 Example: 
-> weightedaverage('Giorgia')
-[1] 110
+> weightedaverage()
+   Students degrees complete
+1   Giorgia  110.00     TRUE
+2      Anna   83.93     TRUE
+3   Corrado   89.43     TRUE
+4    Andrea   85.35     TRUE
+5 Alejandra   96.46    FALSE
+6  Gerolamo   90.93    FALSE
+
+Or
+> weightedaverage("Giorgia")
+  Students degrees complete
+1  Giorgia     110     TRUE
 ```
 - adjustedfinaldegree()
 
@@ -39,13 +50,13 @@ Type ?adjustedfinaldegree for a complete description of the function.
 Example: 
 > adjustedfinaldegree(18)
     Stdents   Subjects cfu Score AdjFinalDegree
-1 Alejandra     Coding  12    18       96.46154
-2 Alejandra       Opt2   6    18       96.46154
-3 Alejandra       Opt4   6    18       96.46154
-4 Alejandra       Opt5   6    18       96.46154
-5  Gerolamo Algorithms   6    18       90.93333
-6  Gerolamo       Opt3   6    18       90.93333
-7  Gerolamo       Opt5   6    18       90.93333
+1 Alejandra     Coding  12    18          88.00
+2 Alejandra       Opt2   6    18          88.00
+3 Alejandra       Opt4   6    18          88.00
+4 Alejandra       Opt5   6    18          88.00
+5  Gerolamo Algorithms   6    18          86.78
+6  Gerolamo       Opt3   6    18          86.78
+7  Gerolamo       Opt5   6    18          86.78
 ```
 
 - weightedaverageGUI()

@@ -4,10 +4,12 @@
 \alias{weightedaverage}
 \title{Weighted Average}
 \usage{
-weightedaverage(Students)
+weightedaverage(Students, DfDSE)
 }
 \arguments{
 \item{Students}{it's the list of students which you want to calculate the final degree classification}
+
+\item{DfDSE}{it's the dataframe that contains all the exams and info about DSE's students}
 }
 \value{
 final degree classification

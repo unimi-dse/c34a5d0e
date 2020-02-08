@@ -3,14 +3,13 @@
 #' Enumerates students by nationality
 #' @return map of the students' nationality for this class
 #' @export
-#' @importFrom utils read.csv
 #' @importFrom plotly plot_geo add_trace colorbar layout "%>%"
 #'
 StudentsDistribution <- function(){
 
+  DfDSE <- gradecalculator::mydata
   LAND_ISO <- c("AUT","BEL","BGR","HRV","CYP","CZE","DNK","EST","FIN","FRA","DEU","GRC","HUN","IRL","ITA","LVA","LTU","LUX","MLT","NLD","POL","PRT","ROU","SVK","SVN","ESP","SWE","GBR")
 
-  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "gradecalculator"))
   Nations <- unique(DfDSE$Nationality)
 
   StdntPerNation <- vector()

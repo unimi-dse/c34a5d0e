@@ -3,12 +3,11 @@
 #' This function reads the data into the dataframe and calculates how many times occur a certain score
 #' @return plot of the Score density
 #' @export
-#' @importFrom utils read.csv
 #' @importFrom plotly plot_ly
 #'
 ScoreDensity <- function(){
-  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "gradecalculator"))
 
+  DfDSE <- gradecalculator::mydata
   tabella <- table(DfDSE$Score)
 
   Density <- as.vector(tabella)
