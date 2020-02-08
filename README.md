@@ -37,6 +37,7 @@ Example:
 6  Gerolamo   90.93    FALSE
 
 Or
+
 > weightedaverage("Giorgia")
   Students degrees complete
 1  Giorgia     110     TRUE
@@ -44,7 +45,7 @@ Or
 - adjustedfinaldegree()
 
 The function adjustedfinaldegree() takes a possible score to all the exams that you still need to do and calculates your "adjusted" final degree. Infact few DSE students have not complete their plan of study so they have to understand, through this tool, the impact on future grades on their final degree assignment.
-Type ?adjustedfinaldegree for a complete description of the function.
+Type ?adjustedfinaldegree.
 
 ```
 Example: 
@@ -62,23 +63,27 @@ Example:
 - weightedaverageGUI()
 
 The function weightedaverageGUI() shows how is the trend of all final grade classifications for each DSE students in the file.
-Type ?weightedaverageGUI for a complete description of the function.
+Type ?weightedaverageGUI.
 
 - ScoreDensity()
 
-The function ScoreDensity() calculates how many times occur a certain score and draw a plot to show it. Type ?ScoreDensity. 
+The function ScoreDensity() calculates how many times occur a certain score and draw a plot to show it. 
+Type ?ScoreDensity. 
 
 - ScoreDensityForStudent()
 
-The function ScoreDensityForStudent() makes a statistical analysis for all DSE students (mean,variance,min,max) through a plot. Type ?ScoreDensityForStudent. 
+The function ScoreDensityForStudent() makes a statistical analysis for all DSE students (mean,variance,min,max) through a plot. 
+Type ?ScoreDensityForStudent. 
 
 - TermFrequency()
 
-The function TermFrequency() draws the frequency of exams taken in each term or session. Type ?TermFrequency
+The function TermFrequency() draws the frequency of exams taken in each term or session. 
+Type ?TermFrequency
 
 - StudentsDistribution()
 
-The function StudentsDistruibution() represents through a map the density of students that attend DSE by their nationalities. Type ?StudentsDistribution.
+The function StudentsDistruibution() represents through a map the density of students that attend DSE by their nationalities. 
+Type ?StudentsDistribution.
 
 - GradeCalculatorGUI()
 
