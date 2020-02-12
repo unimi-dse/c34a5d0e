@@ -5,7 +5,7 @@
 #' @export
 #' @importFrom plotly plot_ly
 #'
-TermFreqency <- function(){
+TermFrequency <- function(){
 
   DfDSE <- gradecalculator::mydata
   Students<-unique(DfDSE$Student)
