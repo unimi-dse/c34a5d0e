@@ -11,7 +11,7 @@ The info are collected in a csv file as the gender, nationality, age for each st
 ## Installation
 ```
 # first install the R package "devtools" 
-#devtools::install_github('unimi-dse/c34a5d0e')
+devtools::install_github('unimi-dse/c34a5d0e')
 ```
 
 ## Usage
